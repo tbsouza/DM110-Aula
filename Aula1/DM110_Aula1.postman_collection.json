@@ -1,0 +1,298 @@
+{
+	"info": {
+		"_postman_id": "2abbbe12-54e4-4185-b1de-03a835653c36",
+		"name": "DM110_Aula1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/helloServlet?name=Thiago",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/helloServlet?name=Thiago",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"helloServlet"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Thiago"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/api/hello/say/Thiago",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/api/hello/say/Thiago",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"api",
+						"hello",
+						"say",
+						"Thiago"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/api/helloSer/storeMessage?op1=4&op2=9&op=soma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/api/helloSer/storeMessage?op1=4&op2=9&op=soma",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"api",
+						"helloSer",
+						"storeMessage"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "4"
+						},
+						{
+							"key": "op2",
+							"value": "9"
+						},
+						{
+							"key": "op",
+							"value": "soma"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.71&op=soma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.71&op=soma",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"calc"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "4.75"
+						},
+						{
+							"key": "op2",
+							"value": "1.71"
+						},
+						{
+							"key": "op",
+							"value": "soma"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.92&op=sub",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.92&op=sub",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"calc"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "4.75"
+						},
+						{
+							"key": "op2",
+							"value": "1.92"
+						},
+						{
+							"key": "op",
+							"value": "sub"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.98&op=mult",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.98&op=mult",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"calc"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "4.75"
+						},
+						{
+							"key": "op2",
+							"value": "1.98"
+						},
+						{
+							"key": "op",
+							"value": "mult"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.92&op=div",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/calc?op1=4.75&op2=1.92&op=div",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"calc"
+					],
+					"query": [
+						{
+							"key": "op1",
+							"value": "4.75"
+						},
+						{
+							"key": "op2",
+							"value": "1.92"
+						},
+						{
+							"key": "op",
+							"value": "div"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8080/dm110-web/api/calc/soma/1.8/1.74",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/dm110-web/api/calc/soma/1.8/1.74",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"dm110-web",
+						"api",
+						"calc",
+						"soma",
+						"1.8",
+						"1.74"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

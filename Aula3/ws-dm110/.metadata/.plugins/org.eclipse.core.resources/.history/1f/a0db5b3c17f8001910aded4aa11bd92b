@@ -1,0 +1,11 @@
+package br.inatel.dm110.api;
+
+public class StateTO {
+
+	private int ibge;
+	private String nome;
+	private String sigla;
+	private float area;
+	
+	
+}

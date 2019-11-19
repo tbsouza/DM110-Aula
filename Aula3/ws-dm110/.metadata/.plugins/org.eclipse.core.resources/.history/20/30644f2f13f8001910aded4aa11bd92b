@@ -1,0 +1,25 @@
+package br.inatel.dm110.hello.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "ESTADO")
+public class State implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+
+	public State() {
+		
+	}
+	
+	@Id
+	private int ibge;
+	private String sigla;
+	private String nome;
+	private float area;
+	
+}

@@ -1,0 +1,24 @@
+package br.inatel.dm110.hello.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import br.inatel.dm110.hello.entities.State;
+
+public class IbgeDao {
+
+	@PersistenceContext(unitName = "IBGE_pu")
+	private EntityManager em;
+
+	public List<State> listAll() {
+	        Query query = em.createQuery("from State s", State.class)
+	        return query.getResultList();
+	 }
+
+	public void insert(State state) {
+		em.persist(state);
+	}
+
+}

@@ -1,0 +1,7 @@
+package br.inatel.dm110.hello.interfaces;
+
+import java.awt.HeadlessException;
+
+public interface HelloLocal extends Hello{
+
+}

@@ -1,0 +1,26 @@
+package br.inatel.dm110.impl;
+
+import java.util.List;
+
+import javax.enterprise.context.RequestScoped;
+
+import br.inatel.dm110.api.IbgeService;
+import br.inatel.dm110.api.StateTO;
+
+@RequestScoped
+public class IbgeServiceImpl implements IbgeService {
+
+	@Override
+	public void saveState(StateTO state) {
+		
+	}
+
+	@Override
+	public List<StateTO> listAllStates() {
+		
+		return null;
+	}
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package br.inatel.dm110.hello.beans;
+
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.jms.ConnectionFactory;
+
+@Stateless
+public class HelloMessageSender {
+
+	@Resource(lookup = "java:/ConnectionFactory")
+	private ConnectionFactory connectionFactory;
+	
+	@Resource(lookup = "java:/jms/queue/dm110queue")
+	private Queue queue;
+	
+}

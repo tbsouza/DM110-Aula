@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+<fullyQualifiedTypeName name="br.inatel.dm110.api.CalculatorService"/>
+<fullyQualifiedTypeName name="br.inatel.dm110.impl.CalculatorServiceImpl"/>
+</qualifiedTypeNameHistroy>

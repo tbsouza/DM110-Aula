@@ -1,0 +1,8 @@
+package br.inatel.dm110.hello.beans;
+
+public class HelloMessageSender {
+
+	private ConnectionFactory connectionFactory;
+	
+	
+}

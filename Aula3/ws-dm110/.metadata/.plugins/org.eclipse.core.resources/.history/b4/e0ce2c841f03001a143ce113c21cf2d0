@@ -1,0 +1,16 @@
+package br.inatel.dm110.hello.beans;
+
+import javax.annotation.Resource;
+import javax.jms.ConnectionFactory;
+import javax.jms.Queue;
+
+public class IbgeMessage {
+
+	@Resource(lookup = "java:/ConnectionFactory")
+	private ConnectionFactory connectionFactory;
+
+	@Resource(lookup = "java:/jms/queue/ibgequeue")
+	private Queue queue;
+	
+	
+}
